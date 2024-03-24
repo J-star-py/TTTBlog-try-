@@ -8,4 +8,6 @@ if (document.URL.includes("index.html")) {
       document.querySelector(".navBar").style.backgroundColor = "rgba(11,1,28,1)";
     }
   })
+} else {
+  console.log("nope");
 }
