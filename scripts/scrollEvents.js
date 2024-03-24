@@ -1,4 +1,5 @@
 if (document.URL.includes("index.html")) {
+  console.log("yep");
   document.addEventListener("scroll", function () {
     let scrollPostion = window.scrollY;
     document.querySelector("#heroSection img").style.top = scrollPostion*0.7 + "px"
