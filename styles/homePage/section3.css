@@ -1,6 +1,6 @@
 :root {
-  --S3headingFontSize: 2.5em;
-  --S3textFontSize: 1.2em;
+  --S3HeadingFontSize: 2.5em;
+  --S3TextFontSize: 1.2em;
   --imgSize: 150px;
   --gridGaps: 50px;
 }
@@ -19,7 +19,7 @@
 }
 
 #section3 h2 {
-  font-size: var(--headingFontSize);
+  font-size: var(--S3HeadingFontSize);
   margin: 40px 40px 5px 40px;
   text-align: center;
 }
@@ -55,7 +55,7 @@
   object-fit: contain;
 }
 .blogPoint p {
-  font-size: var(--textFontSize);
+  font-size: var(--S3TextFontSize);
   line-height: 190%;
 
   background-color: rgba(130, 149, 255, 0.4);
@@ -88,8 +88,8 @@
 /*MEDIA QUERIES###############################################*/
 @media (max-width: 1000px) {
   :root {
-    --headingFontSize: 2.2em;
-    --textFontSize: 1.1em;
+    --S3HeadingFontSize: 2.2em;
+    --S3TextFontSize: 1.1em;
     --imgSize: 130px;
     --gridGaps: 40px;
   }
@@ -113,8 +113,8 @@
 }
 @media (max-width: 700px) {
   :root {
-    --headingFontSize: 2em;
-    --textFontSize: 1em;
+    --S3HeadingFontSize: 2em;
+    --S3TextFontSize: 1em;
     --imgSize: 125px;
     --gridGaps: 25px;
   }
