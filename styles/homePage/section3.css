@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-#section3 h2 {
+#section3 header h2 {
   font-size: var(--S3HeadingFontSize);
   margin: 40px 40px 5px 40px;
   text-align: center;
