@@ -41,7 +41,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 230px;
+  height: 215px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,7 @@
 #section4 article header img {
   height: 11vw;
   min-height: 130px;
-  max-height: 160px;
+  max-height: 150px;
 }
 
 #section4 article p {
