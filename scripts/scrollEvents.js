@@ -20,6 +20,7 @@ if (document.URL.includes("index.html")) {
         navbar.style.backgroundColor = "rgba(11,1,28,1)";
         interruptor = false;
         console.log("1");
+        //comment
       }
   })
 }
