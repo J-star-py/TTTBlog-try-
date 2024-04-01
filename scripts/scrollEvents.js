@@ -15,11 +15,11 @@ if (document.URL.includes("index.html")) {
       if (!interruptor && scrollPostion < 35) {
         interruptor = true;
         navbar.style.backgroundColor = "rgba(11,1,28,0)";
-        //console.log("0");
+        console.log("0");
       } else if (interruptor && scrollPostion >= 35) {
         navbar.style.backgroundColor = "rgba(11,1,28,1)";
         interruptor = false;
-        //console.log("1");
+        console.log("1");
       }
   })
 }
