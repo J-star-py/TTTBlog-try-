@@ -21,7 +21,7 @@ function makePlay(id) {
   }
   document.querySelector("#gameBanner p").innerText = "";
   let mark = document.createElement("p");
-  mark.innerHTML = {1:"<img src='assets/switch-button-x(color).svg' alt='' />",2:"<img src='assets/switch-button-o(color).svg' alt='' />"}[2-(ceros%2)];
+  mark.innerHTML = {1:"<img src='assets(2)/switch-button-x(color).svg' alt='' />",2:"<img src='assets(2)/switch-button-o(color).svg' alt='' />"}[2-(ceros%2)];
   mark.classList.add({1:"cross",2:"circle"}[2-(ceros%2)]);
   document.querySelector(`#c${id}`).appendChild(mark);
   board[id] = 2-(ceros%2);
@@ -39,7 +39,7 @@ function makePlay(id) {
   setTimeout(function(ceros){
     let cellObjetive = document.querySelector(`#c${callAI(board)}`);
     let mark2 = document.createElement("p");
-    mark2.innerHTML = {1:"<img src='assets/switch-button-x(color).svg' alt='' />",2:"<img src='assets/switch-button-o(color).svg' alt='' />"}[(ceros%2)+1];
+    mark2.innerHTML = {1:"<img src='assets(2)/switch-button-x(color).svg' alt='' />",2:"<img src='assets(2)/switch-button-o(color).svg' alt='' />"}[(ceros%2)+1];
     mark2.classList.add({1:"cross",2:"circle"}[(ceros%2)+1]);
     cellObjetive.appendChild(mark2);
     winVerification();
@@ -95,7 +95,7 @@ function resetButton() {
   setTimeout(function(){
     let cellObjetive = document.querySelector(`#c${callAI(board)}`);
     let mark2 = document.createElement("p");
-    mark2.innerHTML = "<img src='assets/switch-button-x(color).svg' alt='' />";
+    mark2.innerHTML = "<img src='assets(2)/switch-button-x(color).svg' alt='' />";
     mark2.classList.add("cross");
     cellObjetive.appendChild(mark2);
     canPlay = true;
@@ -110,7 +110,7 @@ function switchButton () {
   canPlay = false
   let sButton = document.querySelector(".switchButton");
   sButton.setAttribute("id",{"switch1":"switch2","switch2":"switch1"}[sButton.id])
-  sButton.innerHTML = {"switch1":"<img src='assets/switch-button-x.svg' alt='' />","switch2":"<img src='assets/switch-button-o.svg' alt='' />"}[sButton.id]
+  sButton.innerHTML = {"switch1":"<img src='assets(2)/switch-button-x.svg' alt='' />","switch2":"<img src='assets(2)/switch-button-o.svg' alt='' />"}[sButton.id]
 
   for (let i = 0; i < 9; i++) {
     if (board[i] == 0) {continue}
@@ -129,7 +129,7 @@ function switchButton () {
   setTimeout(function(){
     let cellObjetive = document.querySelector(`#c${callAI(board)}`);
     let mark2 = document.createElement("p");
-    mark2.innerHTML = "<img src='assets/switch-button-x(color).svg' alt='' />";
+    mark2.innerHTML = "<img src='assets(2)/switch-button-x(color).svg' alt='' />";
     mark2.classList.add("cross");
     cellObjetive.appendChild(mark2);
     canPlay = true;
