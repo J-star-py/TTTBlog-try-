@@ -84,7 +84,7 @@ footer nav section a:hover {
   z-index: 2;
   bottom: 20px;
   color: rgb(224, 222, 228);
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   width: 100%;
   text-align: center;
 }
