@@ -37,7 +37,7 @@ function createHeader(classOfNavBar="") {
   header.id="primaryNav";
   navBar.className =`navBar ${classOfNavBar}`.trim();
 
-  logoImg.src = "assets/Logo-10.png";
+  logoImg.src = "assets(2)/Logo-10.webp";
   logoImg.alt = "Logo"
   logoLink.appendChild(logoImg);
   logoLink.id="logoLink";
@@ -82,7 +82,7 @@ function createFooter(page="") {
   let copyNotice = document.createElement("p");
 
   footerShadow.id = "footerBottomShadow";
-  footerLogo.src = "assets/Logo-10.png";
+  footerLogo.src = "assets(2)/Logo-10.webp";
   copyNotice.id = "copyrightNotice";
   copyNotice.innerHTML = "&copy; 2024 Tictactoe Guides.";
 
