@@ -90,7 +90,7 @@ function createFooter(page="") {
   
   section2.id = "footerNav2";
   section2.innerHTML = `
-  <h3>Browse</h3>
+  <h2>Browse</h2>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="blogArticles.html">Blog</a></li>
@@ -99,7 +99,7 @@ function createFooter(page="") {
     </ul>`
   section3.id = "footerNav3";
   section3.innerHTML = `
-  <h3>Recommended articles</h3>
+  <h2>Recommended articles</h2>
     <ul class="recommendedArticles">
       <li>
         <a href="article-1.html">All possible combinations of plays in Tictactoe</a>
@@ -112,7 +112,7 @@ function createFooter(page="") {
     let section1 = document.createElement("section");
     section1.id = "footerNav1";
     section1.innerHTML = `
-    <h3>Home page sections</h3>
+    <h2>Home page sections</h2>
     <ul>
       <li><a href="#section2">Rules of the game</a></li>
       <li><a href="#section3">What you will find in the blog</a></li>
