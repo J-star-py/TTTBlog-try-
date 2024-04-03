@@ -35,7 +35,7 @@ function createHeader() {
   navBar.className =`navBar ${document.URL.includes("index.html") ? "" : "navClass2"}`.trim();
 
   logoImg.src = "assets(2)/Logo-10.svg";
-  logoImg.alt = "Logo"
+  logoImg.alt = "Logo Tictactoe Guides";
   logoLink.appendChild(logoImg);
   logoLink.id="logoLink";
   logoLink.href ="index.html"
