@@ -10,6 +10,7 @@ function createFooter() {
 
   footerShadow.id = "footerBottomShadow";
   footerLogo.src = "assets(2)/Logo-10.svg";
+  footerLogo.alt = "Logo Tictactoe Guides";
   copyNotice.id = "copyrightNotice";
   copyNotice.innerHTML = "&copy; 2024 Tictactoe Guides.";
 
