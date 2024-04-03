@@ -36,6 +36,8 @@ function createHeader() {
 
   logoImg.src = "assets(2)/Logo-10.svg";
   logoImg.alt = "Logo Tictactoe Guides";
+  logoImg.height = "33";
+  logoImg.width = "100";
   logoLink.appendChild(logoImg);
   logoLink.id="logoLink";
   logoLink.href ="index.html"
