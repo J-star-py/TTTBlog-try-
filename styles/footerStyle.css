@@ -20,6 +20,7 @@ footer img {
   position: relative;
   z-index: 2;
   height: 40px;
+  width: auto;
   margin: 30px 10px 20px 40px;
 
   user-select: none;
