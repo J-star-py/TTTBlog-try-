@@ -13,6 +13,7 @@
 body {
   padding-top: var(--bodyPaddingTop);
   color: white;
+  overflow-x: hidden;
 }
 
 .articleSection {
