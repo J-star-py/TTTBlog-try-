@@ -15,6 +15,9 @@
   margin: 0px;
 }
 
+#firstUl {
+  padding-left: 30px;
+}
 #firstUl h3 {
   margin-bottom: 5px;
   margin-top: 25px;
@@ -27,10 +30,11 @@
   margin-bottom: 30px;
 }
 #clarificationsUl li p {
-  margin-bottom: 20px;
+  margin: 0px 0px 20px 0px;
 }
 
 #endGiftCard {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,6 +242,10 @@
 @media (max-width: 1000px) {
   #giftIcon2 {
     opacity: 1;
+  }
+  html {
+    overflow-x: hidden;
+    width: auto;
   }
 }
 
