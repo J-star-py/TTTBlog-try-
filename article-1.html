@@ -926,6 +926,7 @@
           <div id="endGiftCard">
             <div id="endGiftImgDiv">
               <img
+                loading="lazy"
                 src="assets(2)/articleCard1(6).webp"
                 alt="Illustration of a tree of possibilities"
               />
@@ -941,10 +942,12 @@
             </a>
             <div id="endGiftCover" onclick="endGiftFunction()">
               <img
+                loading="lazy"
                 src="assets(2)/Article-1/gift-icon3.webp"
                 alt="Black gift icon"
               />
               <img
+                loading="lazy"
                 id="giftIcon2"
                 src="assets(2)/Article-1/gift-icon2.webp"
                 alt="Purple gift icon"
@@ -1038,17 +1041,15 @@
           </section>
         </div>
       </section>
+
+      <div style="background-color: rgb(35, 31, 46)"></div>
       <section class="commentSection">
+        <div class="observedPoint"></div>
+        <!--CommentBox.io code-->
         <div class="commentbox"></div>
-        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-        <script>
-          commentBox("5762544761307136-proj", {
-            backgroundColor: "rgb(35, 31, 46)",
-            textColor: "#fff",
-          });
-        </script>
       </section>
     </main>
     <script src="scripts/footer.js"></script>
+    <script src="scripts/loadComments.js" defer></script>
   </body>
 </html>
