@@ -15,6 +15,7 @@ body {
   color: white;
   overflow-x: hidden;
   width: auto;
+  background-color: rgb(57, 54, 69);
 }
 
 .articleSection {
@@ -89,7 +90,7 @@ article ul p {
   top: 115px;
   width: 75%;
   padding-left: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 140px;
 }
 .contentsTable h2 {
   font-size: 0.9em;
@@ -113,6 +114,15 @@ article ul p {
 }
 .contentsTable a:hover {
   color: rgb(247, 247, 249);
+}
+
+.commentSection {
+  width: var(--columnWidth);
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, 0px);
+  margin-bottom: 30px;
 }
 
 /*MEDIA QUERIES#####################################################*/
