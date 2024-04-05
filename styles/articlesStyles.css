@@ -119,6 +119,8 @@ article ul p {
 .commentSection {
   position: relative;
   width: var(--columnWidth);
+  min-height: 200px;
+  background-color: rgb(35, 31, 46);
   position: relative;
   left: 50%;
   top: 0px;
