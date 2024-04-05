@@ -117,12 +117,23 @@ article ul p {
 }
 
 .commentSection {
+  position: relative;
   width: var(--columnWidth);
   position: relative;
   left: 50%;
   top: 0px;
   transform: translate(-50%, 0px);
   margin-bottom: 30px;
+}
+
+.observedPoint {
+  position: absolute;
+  width: 10px;
+  top: -1100px;
+  bottom: 0;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
 }
 
 /*MEDIA QUERIES#####################################################*/
