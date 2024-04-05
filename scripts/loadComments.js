@@ -12,7 +12,7 @@ function callback(entries, observer) {
           backgroundColor: "rgb(35, 31, 46)",
           textColor: "#fff",
         });
-      }, 500);
+      }, 1600);
 
       console.log('Element is in view!');
 
