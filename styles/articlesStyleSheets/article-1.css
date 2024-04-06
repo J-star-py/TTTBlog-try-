@@ -137,6 +137,7 @@
 
 #endGiftCover img {
   height: 55%;
+  width: auto;
   user-select: none;
   -webkit-user-drag: none;
 }
